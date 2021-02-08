@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment">
+
+    <com.example.simplebannerlibrary.BannerView
+        android:id="@+id/custom_banner"
+        android:layout_width="match_parent"
+        app:imageUrl="My first Web app"
+        app:tag="banner_fragment"
+        android:layout_height="wrap_content">
+    </com.example.simplebannerlibrary.BannerView>
+
+</FrameLayout>

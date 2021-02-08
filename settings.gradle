@@ -1,0 +1,3 @@
+include ':simplebannerlibrary'
+include ':app'
+rootProject.name = "BannerTestApp"
